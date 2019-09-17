@@ -19,48 +19,53 @@
     <script defer src="js/script.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="container">
-      <h2>Welcome</h2>
-      <h1>CI&T Japan Hackathon</h1>
+      <header>
+        <img width="100" alt="CI&T" title="CI&T" src="img/ciandt.png" />
+        <h1>Save the World! Subculture x IoT</h1>
+      </header>
       
-      <div class="first sensor-wrapper sensor1">
-        <div class="sensor-card">
-          <div class="current-container">
-            <span id="sensor1" class="current-value">0</span>
-            <span class="unit">TEMP</span>
+      <div class="row">
+        <div class="first column sensor1">
+          <div class="sensor-card">
+            <div class="current-container">
+              <span id="sensor1" class="current-value">0</span>
+              <span class="unit">TEMP</span>
+            </div>
+            <div class="icon">
+              <span>&#xf055;</span>
+            </div>
           </div>
-          <div class="icon">
-            <span>&#xf055;</span>
-          </div>
-        </div>
-      </div> 
+        </div> 
 
-      <div class="sensor-wrapper sensor2">
-        <div class="sensor-card">
-          <div class="current-container">
-            <span id="sensor2" class="current-value">0</span>
-            <span class="unit">HUMIDITY</span>
+        <div class="column sensor2">
+          <div class="sensor-card">
+            <div class="current-container">
+              <span id="sensor2" class="current-value">0</span>
+              <span class="unit">HUMIDITY</span>
+            </div>
+            <div class="icon">
+              <span>&#xf07a;</span>
+            </div>
           </div>
-          <div class="icon">
-            <span>&#xf07a;</span>
-          </div>
-        </div>
-      </div> 
+        </div> 
 
-      <div class="sensor-wrapper">
-        <div class="sensor-card">
-          <div class="current-container">
-            <span id="sensor3" class="current-value">0</span>
-            <span class="unit">PRESSURE</span>
+        <div class="column">
+          <div class="sensor-card">
+            <div class="current-container">
+              <span id="sensor3" class="current-value">0</span>
+              <span class="unit">PRESSURE</span>
+            </div>
+            <div class="icon">
+              <span>&#xf079;</span>
+            </div>
           </div>
-          <div class="icon">
-            <span>&#xf079;</span>
-          </div>
-        </div>
-      </div> 
+        </div> 
 
+      </div>
 
     </div>
 
