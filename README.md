@@ -78,11 +78,11 @@ This section introduces the technologies used on this Hackathon.
 
 #### Firebase
 Firebase is a product powered by Google which allows to build apps fast, without managing infrastructure.
-On this challange, we will use Firebase for host our web application and our database.
+On this challange, we will use Firebase for host our web application and our database.  
 https://firebase.google.com/
 
 #### Raspberry Pi
-The Raspberry Pi is a series of small single-board computers. The sensors will be plugged in Raspberry Pi which will send the information to Firebase's database.
+The Raspberry Pi is a series of small single-board computers. The sensors will be plugged in Raspberry Pi which will send the information to Firebase's database.  
 https://www.raspberrypi.org/
 
 ## Folder and Files Structure
