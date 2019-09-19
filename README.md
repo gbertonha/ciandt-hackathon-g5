@@ -22,29 +22,53 @@ We are really glad to have you here today and we hope you have fun with us!
 A hackathon (also known as a hack day, hackfest or codefest) is a design sprint-like event in which computer programmers and others involved in software development collaborate intensively on software projects. Hackathons usually are about specific subjects and today the subject is "SAVE THE WORLD! Subculture x IoT".
 	
 ## Rules and Regulations
-Although the main target for today's event is to have fun, there are a few rules and regulations that you need to know in order to be eligible to be today's winner. 
+Although the main target for today's event is to have fun, there are a few rules and regulations that you need to be aware in order to be eligible to became today's winner. 
 
 ### General Rules
-All the participants will be splited in 4 different groups. Each team member will be decided in a draw, however the event organization might split some people based on professional profiles.
-The group members need to organize themselves and work as a team. However only one computer will be allowed for each team.
+All the participants will be splited in 4 different groups. Each team member will be decided in a draw, however the event organization might split some people based on their professional profiles.
+The group members need to organize themselves and work as a team. However only 2 computers will be allowed for each team.
 The event organization will provide a set for each group composed by the following:
 
-(1) A Raspberry Pi
-(2) A sensor kit
+(1) A Raspberry Pi  
+(2) A sensor kit  
 
 The Raspberry Pi is already connected to Firebase's Firestore database and saving the data that is been read from the sensors each 30 seconds and displayed in a Web interface.
 
 ### Minimum Requirements
-The proposed idea must be related to "SAVE THE WORLD" theme. In other words, the group need to come up with ideas related to things that may help on world causes such as saving natural resources, saving the environment, sustainability, edutation or anything related to the theme.
-It is mandatory to use at least (1) Raspberry Pi and (2) Firebase, however it is allowed to include any other technologies if wanted.
+The proposed idea must be related to "SAVE THE WORLD" theme. In other words, the group need to come up with ideas related to things that may help on world causes such as saving natural resources, saving the environment, sustainability, education or anything that may be helpfull for the humanity as a whole.
+It is mandatory to use at least (1) Raspberry Pi and (2) Firebase, however it is allowed to modify the project or include any other technologies if wanted.
 
 ### Judging Criteria
+The winner group will be decided acording the following table:
+
+| Criteria | Points |
+| :---: | :---: |
+| Code quality & Technical Difficulty | 300 |
+| Impressiveness | 200 |
+| Usefulness/Practicality | 100 |
+| Business Potential | 50 |
+
+#### Code quality & Technical Difficulty
+#### Impressiveness
+#### Usefulness/Practicality
+#### Business Potential
 
 ## Challenge
-This project is simple Lorem ipsum dolor generator.
+Our skilled Engineers have prepared a codebase at github. The solution is already up and running, end to end.
+Your mission is to envolve this code to something really cool that will make your group to be today's winner.
+There is a Raspberry Pi with 2 sensors connected on it. The first sensor is reading information about both temperature and humidity. The second one is measuring the atmosphere pressure.
+This Raspberry Pi will save the information to Firebase's Firestore database each 2 minutes.
+There is a dashboard hosted by Firebase that is reading the information and displaying on the screen. You can acccess the dashboard from the following URLs:
+
+https://ciandt-hackathon-g1.firebaseapp.com
+https://ciandt-hackathon-g2.firebaseapp.com
+https://ciandt-hackathon-g3.firebaseapp.com
+https://ciandt-hackathon-g4.firebaseapp.com
+
+Your URL depends on which group you are assigned to (g1, g2, g3, g4).
 
 ### Overall Architecture
-The following diagram illustrates the overall architecture for today's Hackathon:
+The following diagram illustrates the overall architecture of the solution that was explained in the previous section:
 
 ![Overall Architecture](https://drive.google.com/uc?export=view&id=15Ef0CSe3NhDkXl4YrWqAMAsPTKn9_C4j)
 
