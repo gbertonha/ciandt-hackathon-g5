@@ -60,10 +60,10 @@ There is a Raspberry Pi with 2 sensors connected on it. The first sensor is read
 This Raspberry Pi will save the information to Firebase's Firestore database each 2 minutes.
 There is a dashboard hosted by Firebase that is reading the information and displaying on the screen. You can acccess the dashboard from the following URLs:
 
-https://ciandt-hackathon-g1.firebaseapp.com
-https://ciandt-hackathon-g2.firebaseapp.com
-https://ciandt-hackathon-g3.firebaseapp.com
-https://ciandt-hackathon-g4.firebaseapp.com
+https://ciandt-hackathon-g1.firebaseapp.com  
+https://ciandt-hackathon-g2.firebaseapp.com  
+https://ciandt-hackathon-g3.firebaseapp.com  
+https://ciandt-hackathon-g4.firebaseapp.com  
 
 Your URL depends on which group you are assigned to (g1, g2, g3, g4).
 
