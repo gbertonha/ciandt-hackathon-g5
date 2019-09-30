@@ -31,7 +31,7 @@ The event organization will provide a set for each group composed by the followi
 
 (1) A Raspberry Pi 3 Model b+
 (2) A humidity and temperature sensor (DHT11)
-(3) A air pressure sensor (BMP180) 
+(3) An air pressure sensor (BMP180) 
 
 The Raspberry Pi is already connected to Firebase's Firestore database and saving the data that is been read from the sensors each 30 seconds and displayed in a Web interface.
 
@@ -45,18 +45,20 @@ The winner group will be decided acording the following table:
 | Criteria | Points |
 | :---: | :---: |
 | Code quality & Technical Difficulty | 300 |
+| Teamwork | 300 |
 | Impressiveness | 200 |
 | Usefulness/Practicality | 100 |
 | Business Potential | 50 |
 
 #### Code quality & Technical Difficulty
+#### Teamwork
 #### Impressiveness
 #### Usefulness/Practicality
 #### Business Potential
 
 ## Challenge
 Our CI&T's skilled Engineers have prepared a codebase at github. The solution is already up and running, end to end.
-Your mission is to envolve this code to something really cool that will make your group to be today's winner.
+Your mission is to envolve this code to something really cool that will make your group to be today's winner. But be careful! The time is short and it is necessary to come up with an idea that you will be able to finish by 19:00.  
 There is a Raspberry Pi with 2 sensors connected on it. The first sensor (DHT11) is reading information about both temperature and humidity. The second one (BMP180) is measuring the atmosphere pressure.
 This Raspberry Pi will save the information to Firebase's Firestore database each 2 minutes.
 There is a dashboard hosted by Firebase that is reading the information and displaying on the screen. You can acccess the dashboard from the following URLs:
@@ -89,12 +91,13 @@ The Raspberry Pi is a series of small single-board computers. The sensors will b
 https://www.raspberrypi.org/
 
 ## Folder and Files Structure
-The officil github repository (https://github.com/geovanneb/ciandt-hackathon) for the Hackathon is using the following folder structure:
+The official github repository (https://github.com/geovanneb/ciandt-hackathon) for the Hackathon is using the following folder structure:
 ```
 ciandt-hackathon
-  ├── iot #contains the python code shiped on Raspberry Pi
+  ├── iot #contains the python code shipped on Raspberry Pi
     ├── main.py #main python file 
-  ├── web-ui #contains the Firebase project (Web user interface).
+    ├── vendor #contains third party libraries
+  ├── web-ui #contains the Firebase project (Web UI).
     ├── firebase.json #Firebase's configuration file
     ├── public #contains Web UI HTML / CSS / JS files
 ```
@@ -102,7 +105,8 @@ ciandt-hackathon
 ## Environment setup
 Make sure that all team members has a github account, then go to the official repository and fork it:
 https://github.com/geovanneb/ciandt-hackathon
-It is very important during the Hackathon to keep pushing your progress to github, so the organization can check the code being produced by your team.
+It is very important during the Hackathon to keep pushing your progress to github, so the organization can check the code being produced by your team.  
+Refrain from pushing all code at once just at the end of the event!
 
 ### Local Environment
 Clone the repository on your computer:
