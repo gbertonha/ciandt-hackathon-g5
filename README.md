@@ -26,8 +26,8 @@ Although the main target for today's event is to have fun, there are a few rules
 
 ### General Rules
 All the participants will be splited in 4 different groups. Each team member will be decided in a draw, however in order to balance the groups the event organization might split some people based on their professional profiles.
-The group members need to organize themselves and work as a team. However only 2 computers will be allowed for each team.
-The event organization will provide a set for each group composed by the following:
+The group members need to organize themselves and work as a team. However each team can use only 2 computers.
+The event organization will provide a set of devices for each group composed by the following:
 
 (1) A Raspberry Pi 3 Model b+
 (2) A humidity and temperature sensor (DHT11)
@@ -59,8 +59,12 @@ The winner group will be decided acording the following table:
 ## Challenge
 Our CI&T's skilled Engineers have prepared a codebase at github. The solution is already up and running, end to end.
 Your mission is to envolve this code to something really cool that will make your group to be today's winner. But be careful! The time is short and it is necessary to come up with an idea that you will be able to finish by 19:00.  
-There is a Raspberry Pi with 2 sensors connected on it. The first sensor (DHT11) is reading information about both temperature and humidity. The second one (BMP180) is measuring the atmosphere pressure.
-This Raspberry Pi will save the information to Firebase's Firestore database each 2 minutes.
+There is a Raspberry Pi with 2 sensors connected on it. The first sensor (DHT11) is reading information about both temperature and humidity.  
+![DHT11](https://drive.google.com/uc?export=view&id=1mKlMdJDdsKElJp8_SGyA4y3qtuCkxZ2n)  
+The second one (BMP180) is measuring the atmosphere pressure.  
+![BMP180](https://drive.google.com/uc?export=view&id=18l1IDndIt0ljzfiXGpsCMOmqXxaj65h_)  
+This Raspberry Pi will save the information to Firebase's Firestore database each 2 minutes. 
+![Raspberry Pi 3 Model b+](https://drive.google.com/uc?export=view&id=1ai4LoqnIVyWECXcTKYsb7Fa3seWMWjfd)  
 There is a dashboard hosted by Firebase that is reading the information and displaying on the screen. You can acccess the dashboard from the following URLs:
 
 https://ciandt-hackathon-g1.firebaseapp.com  
@@ -155,3 +159,8 @@ When you start Thonny, you’ll see a new script editor and a shell. As with Pyt
 ```
 Instructions here
 ```
+
+### GPIO
+
+You might want to change or add new sensors to your Raspberry Pi. You can refer to the image below for Devices' GPIO information:  
+![GPIO](https://drive.google.com/uc?export=view&id=1N__lHNWkRR2rk24o0w2tL2seFEvPiGE0)

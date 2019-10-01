@@ -11,28 +11,15 @@ from pytz import timezone
 from vendor.Adafruit_BMP085.Adafruit_BMP085 import BMP085
 
 class Iot(object):
+    # Be careful to change this value, because Firebase free acc has a limit
+    interval = 20
     db = None
-
     sensor1Pin = 18
     bmp = BMP085(0x77, debug=True)
 
     def __init__(self):
-        print("init")
-        #sensor2Pin = 21
-        #sensor3Pin = 20
+        # setup
         GPIO.setmode(GPIO.BCM)
-
-        # Setup
-        #GPIO.setup(sensor1Pin, GPIO.IN)
-        #GPIO.setup(sensor2Pin, GPIO.IN)
-        #GPIO.setup(sensor3Pin, GPIO.IN)
-
-        # Events
-        #GPIO.add_event_detect(sensor1Pin, GPIO.BOTH, callback=self.sensor1, bouncetime=300)
-        
-        #GPIO.add_event_detect(sensor2Pin, GPIO.BOTH, callback=self.sensor2, bouncetime=300)
-        #GPIO.add_event_detect(sensor3Pin, GPIO.BOTH, callback=self.sensor3, bouncetime=300)
-
         # Use a service account
         cred = credentials.Certificate('key.json')
         firebase_admin.initialize_app(cred)
@@ -76,7 +63,7 @@ class Iot(object):
             while True:
                 self.sensor1()
                 self.sensor2()
-                time.sleep(20)
+                time.sleep(self.interval)
 
         finally:
             GPIO.cleanup()
