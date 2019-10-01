@@ -29,9 +29,9 @@ All the participants will be splited in 4 different groups. Each team member wil
 The group members need to organize themselves and work as a team. However each team can use only 2 computers.
 The event organization will provide a set of devices for each group composed by the following:
 
-(1) A Raspberry Pi 3 Model b+
-(2) A humidity and temperature sensor (DHT11)
-(3) An air pressure sensor (BMP180) 
+(1) A Raspberry Pi 3 Model b+  
+(2) A humidity and temperature sensor (DHT11)  
+(3) An air pressure sensor (BMP180)  
 
 The Raspberry Pi is already connected to Firebase's Firestore database and saving the data that is been read from the sensors each 30 seconds and displayed in a Web interface.
 
