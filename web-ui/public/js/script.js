@@ -9,6 +9,11 @@ var readData = function(sensor) {
     .onSnapshot(function(querySnapshot) {
     querySnapshot.forEach(function(doc) {
       document.getElementById(sensor).innerText = doc.data().value;
+      var today = new Date();
+      var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      var dateTime = date+' '+time;
+      document.getElementById("last-update").innerText = dateTime;
     });
   });
 }

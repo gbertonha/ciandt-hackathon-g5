@@ -56,7 +56,7 @@ header h1 {
 
 .container {
   max-width: 1240px;
-  padding-top: 100px;
+  padding-top: 110px;
   margin: auto;
 }
 
@@ -101,7 +101,7 @@ header h1 {
   right: 0;
 }
 .current-value{
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   display: block;
   font-weight: 300;
@@ -109,17 +109,31 @@ header h1 {
   padding: 20px 0 0;
 }
 .unit{
-  color: rgb(255, 255, 255);
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 30px;
+  color: rgb(52, 198, 235);
+  font-size: 40px;
   display: block;
 }
-.icon span{
+.icon span.i{
   font-family: weathericons;
-  font-size: 80px;
+  font-size: 70px;
   display: block;
-  padding: 42px 0 0;
+  padding: 15px 0 0;
   text-align: center;
+}
+
+.icon span.type{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 650;
+  font-size: 26px;
+  display: block;
+}
+
+.updated {
+  color: rgb(241, 255, 23);
+  font-family: 'Open Sans';
+  margin: 0px 0px 0px 15px;
+  padding: 0px;
+  font-size: 20px;
 }
