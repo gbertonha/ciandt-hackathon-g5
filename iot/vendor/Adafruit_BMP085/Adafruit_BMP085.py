@@ -112,7 +112,7 @@ class BMP085 :
     raw = self.readU16(self.__BMP085_TEMPDATA)
     if (self.debug):
       print("DBG: Raw Temp: 0x%04X (%d)" % (raw & 0xFFFF, raw))
-      return raw
+    return raw
 
   def readRawPressure(self):
     "Reads the raw (uncompensated) pressure level from the sensor"
@@ -131,7 +131,7 @@ class BMP085 :
     raw = ((msb << 16) + (lsb << 8) + xlsb) >> (8 - self.mode)
     if (self.debug):
       print("DBG: Raw Pressure: 0x%04X (%d)" % (raw & 0xFFFF, raw))
-      return raw
+    return raw
 
   def readTemperature(self):
     "Gets the compensated temperature in degrees celcius"
