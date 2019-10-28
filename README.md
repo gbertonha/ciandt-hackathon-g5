@@ -137,21 +137,26 @@ firebase logout
 
 ### Run Web UI on your local machine
 You can validate your Web UI at any time by running it on your local computer before deploying to Firebase hosting.
-make sure you are in the web-ui folder and run the command below. Depending on which group you belong to change the project name.
-Available project are:
+make sure you are in the web-ui folder and run the command below. Depending on which group you belong to change the project-id to the project id of your group.
+Available project-id's are:
+
 ciandt-hackathon-g1
+
 ciandt-hackathon-g2
+
 ciandt-hackathon-g3
+
 ciandt-hackathon-g4
+
 ```
-firebase serve --project ciandt-hackathon-g1
+firebase serve --project [project-id]
 ```
 
 ### Deploy Web UI to Firebase hosting
 After checking on your local computer, you can deploy your application to Firebase hosting and make it available online:
 
 ```
-firebase deploy --only hosting
+firebase deploy --only hosting --project [project-id]
 ```
 After deploying, it should be available from the following URL address (depending on your group number):  
 https://ciandt-hackathon-g1.firebaseapp.com  
