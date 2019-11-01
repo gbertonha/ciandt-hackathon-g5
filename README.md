@@ -44,11 +44,12 @@ The winning group will be decided according the following table:
 
 | Criteria | Points |
 | :---: | :---: |
-| Code quality & Technical Difficulty | 300 |
-| Teamwork | 300 |
-| Impressiveness | 200 |
-| Usefulness/Practicality | 100 |
-| Business Potential | 50 |
+| Code quality & Technical Difficulty | 35 |
+| Teamwork | 30 |
+| Impressiveness | 20 |
+| Usefulness/Practicality | 10 |
+| Business Potential | 5 |
+| TOTAL | 100 |
 
 #### Code quality & Technical Difficulty
 #### Teamwork
