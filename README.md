@@ -116,7 +116,7 @@ Refrain from pushing all code at once just at the end of the event!
 ### Local Environment
 Clone the repository on your computer:
 ```
-$ git clone git@github.com:geovanneb/ciandt-hackathon.git
+$ git clone git@github.com:[your-repository]
 ```
 
 Install Firebase CLI:
