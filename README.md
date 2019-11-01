@@ -171,22 +171,8 @@ https://ciandt-hackathon-g4.firebaseapp.com
 
 Your URL depends on which group you belong to (g1, g2, g3 or g4).
 
-
 ### Develop python code on Raspberry Pi
-
-<<<<<<< HEAD
-There is a monitor, a keyboard and a mouse that is plugged to your Raspberry Pi. You should see the operation system interface that is running on your Raspberry Pi. There is an IDE called Thonny that can be accessed under Menu > Programming. Thonny is a new IDE (integrated development environment) bundled with the latest version of the Raspbian with PIXEL operating system. Using Thonny, it’s now much easier to learn to code. Thonny comes with Python 3.7 built in, so you don’t need to install anything.  
-When you start Thonny, you’ll see a new script editor and a shell. As with Python 3 IDLE, you enter a program in the script editor and run it in the shell. You can then use the shell to interact directly with the program; accessing variables, objects, and other program features.
-
-### GPIO
-
-You might want to change or add new sensors to your Raspberry Pi. But remember: time is short!  
-You can refer to the image below for Devices' GPIO information:  
-![GPIO](https://drive.google.com/uc?export=view&id=1N__lHNWkRR2rk24o0w2tL2seFEvPiGE0)
-
-If you have any questions or concerns do not hesitate in contacting the event organization.  
-We wish you have fun and hope we can CHANGE THE WORLD together!  
-=======
+ 
 There is a monitor, a keyboard and a mouse that is plugged to your Raspberry Pi. Look at your monitor. You should see the operation system interface that is running on your Raspberry Pi. There is an IDE called Thonny that can be accessed under Menu > Programming. Thonny is a new IDE (integrated development environment) bundled with the latest version of the Raspbian with PIXEL operating system. Using Thonny, it’s now much easier to learn to code. Thonny comes with Python 3.6 built in, so you don’t need to install anything.  
 When you start Thonny, you’ll see a new script editor and a shell. As with Python 2/3 IDLE, you enter a program in the script editor and run it in the shell. You can then use the shell to interact directly with the program; accessing variables, objects, and other program features.
 
@@ -198,4 +184,5 @@ Instructions here
 
 You might want to change or add new sensors to your Raspberry Pi. You can refer to the image below for Devices' GPIO information:  
 ![GPIO](https://drive.google.com/uc?export=view&id=1N__lHNWkRR2rk24o0w2tL2seFEvPiGE0)
->>>>>>> e4c42277c6272ec7d756bbbc0fc8dbc9d67c66ef
+
+We wish you have fun and hope we can CHANGE THE WORLD together! 
