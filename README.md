@@ -172,10 +172,6 @@ Your URL depends on which group you belong to (g1, g2, g3 or g4).
 There is a monitor, a keyboard and a mouse that is plugged to your Raspberry Pi. Look at your monitor. You should see the operation system interface that is running on your Raspberry Pi. There is an IDE called Thonny that can be accessed under Menu > Programming. Thonny is a new IDE (integrated development environment) bundled with the latest version of the Raspbian with PIXEL operating system. Using Thonny, it’s now much easier to learn to code. Thonny comes with Python 3.6 built in, so you don’t need to install anything.  
 When you start Thonny, you’ll see a new script editor and a shell. As with Python 2/3 IDLE, you enter a program in the script editor and run it in the shell. You can then use the shell to interact directly with the program; accessing variables, objects, and other program features.
 
-```
-Instructions here
-```
-
 ### GPIO
 
 You might want to change or add new sensors to your Raspberry Pi. You can refer to the image below for Devices' GPIO information:  
