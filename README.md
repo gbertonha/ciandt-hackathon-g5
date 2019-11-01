@@ -33,7 +33,7 @@ The event organization will provide a set of devices for each group composed of 
 (2) A humidity and temperature sensor (DHT11)  
 (3) An air pressure sensor (BMP180)  
 
-The Raspberry Pi is already connected to Firebase's Firestore database and saving the data that is been read from the sensors each 30 seconds and displayed in a Web interface.
+The Raspberry Pi is already connected to Firebase's Firestore database and saving the data that is been read from the sensors each 5 minutes and displayed in a Web interface.
 
 ### Minimum Requirements
 The proposed idea must be related to "Change the world with IoT" theme. In other words, the group need to come up with ideas related to things that may help on world causes such as saving natural resources, saving the environment, sustainability, education or anything that may be helpful for the humanity as a whole.
