@@ -65,7 +65,7 @@ There is a Raspberry Pi with 2 sensors connected on it. The first sensor (DHT11)
 ![DHT11](https://drive.google.com/uc?export=view&id=1mKlMdJDdsKElJp8_SGyA4y3qtuCkxZ2n)  
 The second one (BMP180) is measuring the atmosphere pressure.  
 ![BMP180](https://drive.google.com/uc?export=view&id=18l1IDndIt0ljzfiXGpsCMOmqXxaj65h_)  
-This Raspberry Pi will save the information to Firebase's Firestore database each 2 minutes. 
+This Raspberry Pi will save the information to Firebase's Firestore database each 5 minutes. 
 ![Raspberry Pi 3 Model b+](https://drive.google.com/uc?export=view&id=1ai4LoqnIVyWECXcTKYsb7Fa3seWMWjfd)  
 There is a dashboard hosted by Firebase that is reading the information and displaying on the screen. You can acccess the dashboard from the following URLs:
 
