@@ -26,7 +26,7 @@ Although the main target for today's event is to have fun, there are a few rules
 
 ### General Rules
 All the participants will be split in 4 different groups. Each team member will be decided in a draw, however in order to balance the groups the event organization might split some people based on their professional profiles.
-The group members need to organize themselves and work as a team. However each team can use only 2 computers.
+The group members need to organize themselves and work as a team. However each team can use only 1 computer and 1 Raspberry Pi.
 The event organization will provide a set of devices for each group composed of the following:
 
 (1) A Raspberry Pi 3 Model b+  
