@@ -19,7 +19,7 @@ class Iot(object):
 
     # Be careful to change this value, because Firebase free acc has a limit.
     #This represents the read interval in seconds.
-    interval = 20
+    interval = 300
     database = None
     temperatureAndHumidityPin = 18
     bmp = BMP085(0x77)
