@@ -79,7 +79,7 @@ Your URL depends on which group you belong to (g1, g2, g3 or g4).
 ### Overall Architecture
 The following diagram illustrates the overall architecture of the solution that was explained in the previous section:
 
-![Overall Architecture](https://drive.google.com/uc?export=view&id=1yHr7HdDenmNaXKcEOjOyGBgBHCdeoToJ/view?usp=sharing)
+![Overall Architecture](https://drive.google.com/uc?export=view&id=1yHr7HdDenmNaXKcEOjOyGBgBHCdeoToJ)
 
 
 ### Technologies
