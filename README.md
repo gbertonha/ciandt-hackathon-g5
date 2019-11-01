@@ -109,8 +109,7 @@ ciandt-hackathon
 ```
 
 ## Environment setup
-Make sure that all team members has a github account, then go to the official repository and fork it:
-https://github.com/geovanneb/ciandt-hackathon
+Make sure that the event organization have granted you permissions on your github account.
 It is very important during the Hackathon to keep frequently pushing your progress to github, so the organization can check the code being produced by your team.  
 Refrain from pushing all code at once just at the end of the event!
 
