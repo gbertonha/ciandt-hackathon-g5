@@ -26,14 +26,14 @@ Although the main target for today's event is to have fun, there are a few rules
 
 ### General Rules
 All the participants will be split in 4 different groups. Each team member will be decided in a draw, however in order to balance the groups the event organization might split some people based on their professional profiles.
-The group members need to organize themselves and work as a team. However each team can use only 2 computers.
+The group members need to organize themselves and work as a team. However each team can use only 1 computer and 1 Raspberry Pi.
 The event organization will provide a set of devices for each group composed of the following:
 
 (1) A Raspberry Pi 3 Model b+  
 (2) A humidity and temperature sensor (DHT11)  
 (3) An air pressure sensor (BMP180)  
 
-The Raspberry Pi is already connected to Firebase's Firestore database and saving the data that is been read from the sensors each 30 seconds and displayed in a Web interface.
+The Raspberry Pi is already connected to Firebase's Firestore database and saving the data that is been read from the sensors each 5 minutes and displayed in a Web interface.
 
 ### Minimum Requirements
 The proposed idea must be related to "Change the world with IoT" theme. In other words, the group need to come up with ideas related to things that may help on world causes such as saving natural resources, saving the environment, sustainability, education or anything that may be helpful for the humanity as a whole.
@@ -44,11 +44,12 @@ The winning group will be decided according the following table:
 
 | Criteria | Points |
 | :---: | :---: |
-| Code quality & Technical Difficulty | 300 |
-| Teamwork | 300 |
-| Impressiveness | 200 |
-| Usefulness/Practicality | 100 |
-| Business Potential | 50 |
+| Code quality & Technical Difficulty | 40 |
+| Teamwork | 35 |
+| Impressiveness | 10 |
+| Usefulness/Practicality | 10 |
+| Business Potential | 5 |
+| TOTAL | 100 |
 
 #### Code quality & Technical Difficulty
 #### Teamwork
@@ -57,18 +58,14 @@ The winning group will be decided according the following table:
 #### Business Potential
 
 ## Challenge
-<<<<<<< HEAD
-Our CI&T's skilled Engineers have prepared a codebase for each group at github. The solution is already up and running, end to end.
-Your mission is to envolve this code to something really cool that will make your group to be today's winner. But be careful! The time is short and it is necessary to come up with an idea that you will be able to finish by 19:00.  
-=======
+
 Our CI&T's skilled Engineers have prepared a codebase at github. The solution is already up and running, end to end.
 Your mission is to evolve this code to something really cool that will make your group to be today's winner. But be careful! The time is short and it is necessary to come up with an idea that you will be able to finish by 19:00.  
->>>>>>> e4c42277c6272ec7d756bbbc0fc8dbc9d67c66ef
 There is a Raspberry Pi with 2 sensors connected on it. The first sensor (DHT11) is reading information about both temperature and humidity.  
 ![DHT11](https://drive.google.com/uc?export=view&id=1mKlMdJDdsKElJp8_SGyA4y3qtuCkxZ2n)  
 The second one (BMP180) is measuring the atmosphere pressure.  
 ![BMP180](https://drive.google.com/uc?export=view&id=18l1IDndIt0ljzfiXGpsCMOmqXxaj65h_)  
-This Raspberry Pi will save the information to Firebase's Firestore database each 2 minutes. 
+This Raspberry Pi will save the information to Firebase's Firestore database each 5 minutes. 
 ![Raspberry Pi 3 Model b+](https://drive.google.com/uc?export=view&id=1ai4LoqnIVyWECXcTKYsb7Fa3seWMWjfd)  
 There is a dashboard hosted by Firebase that is reading the information and displaying on the screen. You can acccess the dashboard from the following URLs:
 
@@ -112,15 +109,14 @@ ciandt-hackathon
 ```
 
 ## Environment setup
-Make sure that all team members has a github account, then go to the official repository and fork it:
-https://github.com/geovanneb/ciandt-hackathon
-It is very important during the Hackathon to keep frequently pushing your progress to github, so the organization can check the code being produced by your team.  
+Make sure that the event organization have granted you permissions on your github account.
+It is very important during the Hackathon to keep frequently pushing your progress to github, so the organization can check the code being produced by your team. That will also be a part of the evaluation.
 Refrain from pushing all code at once just at the end of the event!
 
 ### Local Environment
 Clone the repository on your computer:
 ```
-$ git clone git@github.com:geovanneb/ciandt-hackathon.git
+$ git clone git@github.com:[your-repository]
 ```
 
 Install Firebase CLI:
@@ -175,10 +171,6 @@ Your URL depends on which group you belong to (g1, g2, g3 or g4).
  
 There is a monitor, a keyboard and a mouse that is plugged to your Raspberry Pi. Look at your monitor. You should see the operation system interface that is running on your Raspberry Pi. There is an IDE called Thonny that can be accessed under Menu > Programming. Thonny is a new IDE (integrated development environment) bundled with the latest version of the Raspbian with PIXEL operating system. Using Thonny, it’s now much easier to learn to code. Thonny comes with Python 3.6 built in, so you don’t need to install anything.  
 When you start Thonny, you’ll see a new script editor and a shell. As with Python 2/3 IDLE, you enter a program in the script editor and run it in the shell. You can then use the shell to interact directly with the program; accessing variables, objects, and other program features.
-
-```
-Instructions here
-```
 
 ### GPIO
 
