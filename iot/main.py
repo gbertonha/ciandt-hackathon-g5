@@ -70,7 +70,7 @@ class Iot(object):
                 value (int): sensor value to be stored
         """
 
-        doc_ref = self.database.collection(collection).get()
+        doc_ref = self.database.collection(collection).stream()
 
         try:
             for doc in doc_ref:
