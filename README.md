@@ -57,13 +57,9 @@ The winning group will be decided according the following table:
 #### Business Potential
 
 ## Challenge
-<<<<<<< HEAD
-Our CI&T's skilled Engineers have prepared a codebase for each group at github. The solution is already up and running, end to end.
-Your mission is to envolve this code to something really cool that will make your group to be today's winner. But be careful! The time is short and it is necessary to come up with an idea that you will be able to finish by 19:00.  
-=======
+
 Our CI&T's skilled Engineers have prepared a codebase at github. The solution is already up and running, end to end.
 Your mission is to evolve this code to something really cool that will make your group to be today's winner. But be careful! The time is short and it is necessary to come up with an idea that you will be able to finish by 19:00.  
->>>>>>> e4c42277c6272ec7d756bbbc0fc8dbc9d67c66ef
 There is a Raspberry Pi with 2 sensors connected on it. The first sensor (DHT11) is reading information about both temperature and humidity.  
 ![DHT11](https://drive.google.com/uc?export=view&id=1mKlMdJDdsKElJp8_SGyA4y3qtuCkxZ2n)  
 The second one (BMP180) is measuring the atmosphere pressure.  
