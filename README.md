@@ -110,7 +110,7 @@ ciandt-hackathon
 
 ## Environment setup
 Make sure that the event organization have granted you permissions on your github account.
-It is very important during the Hackathon to keep frequently pushing your progress to github, so the organization can check the code being produced by your team.  
+It is very important during the Hackathon to keep frequently pushing your progress to github, so the organization can check the code being produced by your team. That will also be a part of the evaluation.
 Refrain from pushing all code at once just at the end of the event!
 
 ### Local Environment
