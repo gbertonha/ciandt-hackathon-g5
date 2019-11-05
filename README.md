@@ -52,10 +52,24 @@ The winning group will be decided according the following table:
 | TOTAL | 100 |
 
 #### Code quality & Technical Difficulty
+
+The organization will evaluate not only the technical difficulty of the code produced during the event but also the code quality. The code should follow best practices, be standarlized, structured, well organized and documented. 
+
 #### Teamwork
+
+Teamwork is one of the most important judging criteria! It is necessary work as a team, being well organized and syncronized, split the tasks among the team members and communication is a key attribute.
+
 #### Impressiveness
+
+In this criteria the organiation will evaluate how impressive your group idea is. Innovation and originality are key attributes here.
+
 #### Usefulness/Practicality
+
+This criteria is about how feasible, useful and practical the proposed idea is.
+
 #### Business Potential
+
+This criteria will take into consideration the business potential of the proposed idea considering how applicable it is for the market.
 
 ## Challenge
 
