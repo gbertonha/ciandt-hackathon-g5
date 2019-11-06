@@ -84,11 +84,6 @@ This Raspberry Pi will save the information to Firebase's Firestore database eac
 There is a dashboard hosted by Firebase that is reading the information and displaying on the screen. You can acccess the dashboard from the following URLs:
 
 https://ciandt-hackathon-g1.firebaseapp.com  
-https://ciandt-hackathon-g2.firebaseapp.com  
-https://ciandt-hackathon-g3.firebaseapp.com  
-https://ciandt-hackathon-g4.firebaseapp.com  
-
-Your URL depends on which group you belong to (g1, g2, g3 or g4).
 
 ### Overall Architecture
 The following diagram illustrates the overall architecture of the solution that was explained in the previous section:
@@ -153,15 +148,9 @@ firebase logout
 ### Run Web UI on your local machine
 You can validate your Web UI at any time by running it on your local computer before deploying to Firebase hosting.
 make sure you are in the web-ui folder and run the command below. Depending on which group you belong to change the project-id to the project id of your group.
-Available project-id's are:
+Your project-id is:
 
 ciandt-hackathon-g1
-
-ciandt-hackathon-g2
-
-ciandt-hackathon-g3
-
-ciandt-hackathon-g4
 
 ```
 firebase serve --project [project-id]
@@ -175,11 +164,6 @@ firebase deploy --only hosting --project [project-id]
 ```
 After deploying, it should be available from the following URL address (depending on your group number):  
 https://ciandt-hackathon-g1.firebaseapp.com  
-https://ciandt-hackathon-g2.firebaseapp.com  
-https://ciandt-hackathon-g3.firebaseapp.com  
-https://ciandt-hackathon-g4.firebaseapp.com 
-
-Your URL depends on which group you belong to (g1, g2, g3 or g4).
 
 ### Develop python code on Raspberry Pi
  
