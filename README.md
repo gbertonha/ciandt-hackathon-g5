@@ -74,7 +74,7 @@ This criteria will take into consideration the business potential of the propose
 ## Challenge
 
 Our CI&T's skilled Engineers have prepared a codebase at github. The solution is already up and running, end to end.
-Your mission is to evolve this code to something really cool that will make your group to be today's winner. But be careful! The time is short and it is necessary to come up with an idea that you will be able to finish by 18:30.  
+Your mission is to evolve this code to something really cool that will make your group to be today's winner. But be careful! The time is short and it is necessary to come up with an idea that you will be able to finish by 18:00.  
 There is a Raspberry Pi with 2 sensors connected on it. The first sensor (DHT11) is reading information about both temperature and humidity.  
 ![DHT11](https://drive.google.com/uc?export=view&id=1mKlMdJDdsKElJp8_SGyA4y3qtuCkxZ2n)  
 The second one (BMP180) is measuring the atmosphere pressure.  
