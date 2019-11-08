@@ -83,7 +83,7 @@ This Raspberry Pi will save the information to Firebase's Firestore database eac
 ![Raspberry Pi 3 Model b+](https://drive.google.com/uc?export=view&id=1ai4LoqnIVyWECXcTKYsb7Fa3seWMWjfd)  
 There is a dashboard hosted by Firebase that is reading the information and displaying on the screen. You can acccess the dashboard from the following URLs:
 
-https://ciandt-hackathon-g1.firebaseapp.com  
+https://ciandt-hackathon-g5.firebaseapp.com  
 
 ### Overall Architecture
 The following diagram illustrates the overall architecture of the solution that was explained in the previous section:
@@ -150,7 +150,7 @@ You can validate your Web UI at any time by running it on your local computer be
 make sure you are in the web-ui folder and run the command below. Depending on which group you belong to change the project-id to the project id of your group.
 Your project-id is:
 
-ciandt-hackathon-g1
+ciandt-hackathon-g5
 
 ```
 firebase serve --project [project-id]
@@ -163,7 +163,7 @@ After checking on your local computer, you can deploy your application to Fireba
 firebase deploy --only hosting --project [project-id]
 ```
 After deploying, it should be available from the following URL address (depending on your group number):  
-https://ciandt-hackathon-g1.firebaseapp.com  
+https://ciandt-hackathon-g5.firebaseapp.com  
 
 ### Develop python code on Raspberry Pi
  
