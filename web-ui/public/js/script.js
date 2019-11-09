@@ -28,7 +28,7 @@ function readData(sensor) {
 
                 /* Display  the message */
                 var message = displayMessage(temperature);
-                document.getElementById("notification").innerText = message;
+                document.getElementById("message").innerText = message;
             });
         });
 }
@@ -64,6 +64,9 @@ function displayMessage(temperature) {
     //return (temperature > agreed_temperature)? console.log(message_over)  : console.log(message_under);
 }
 
+
+
+
 /**
  * Triggered once DOM is loaded.
  */
@@ -79,3 +82,4 @@ document.addEventListener('DOMContentLoaded', function () {
         console.error(e);
     }
 });
+
