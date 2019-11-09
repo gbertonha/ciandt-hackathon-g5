@@ -56,9 +56,17 @@ function changeBackgroundColor(temperature) {
  */
 function displayMessage(temperature) {
 // Retrieve Firebase Messaging object.
+    var message = "Current temperature is comfortable!";
     var message_over = "Current temperature is over the agreed temperature. Please lower it.";
     var message_under = "Current temperature is under the agreed temperature. Please raise it.";
-    return (temperature > agreed_temperature)? message_over  : message_under;
+    // return (temperature > agreed_temperature)? message_over  : message_under;
+
+    if (temperature > agreed_temperature) {
+        message = message_over
+    } else if (temperature < agreed_temperature) {
+        message = message_under
+    }
+    return message;
 }
 
 /**
