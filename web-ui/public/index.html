@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to CI&T Hackathon</title>
+    <title>Welcome</title>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/6.6.0/firebase-app.js"></script>
@@ -20,57 +20,57 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <img width="100" alt="CI&T" title="CI&T" src="img/ciandt.png" />
+</head>
+<body>
+<div class="container">
+    <header>
+        <img width="100" alt="CI&T" title="CI&T" src="img/ciandt.png"/>
         <h1>Change the world with IoT</h1>
         <h2>Group 5</h2>
-      </header>
-      
-      <div class="row">
+    </header>
+
+    <div class="row">
         <div class="first column temperature">
-          <div class="sensor-card">
-            <div class="current-container">
-              <span id="temperature" class="current-value">0</span>
-              <span class="unit">°C</span>
+            <div class="sensor-card">
+                <div class="current-container">
+                    <span id="temperature" class="current-value">0</span>
+                    <span class="unit">°C</span>
+                </div>
+                <div class="icon">
+                    <span class="i">&#xf055;</span>
+                    <span class="type">TEMP</span>
+                </div>
             </div>
-            <div class="icon">
-              <span class="i">&#xf055;</span>
-              <span class="type">TEMP</span>
-            </div>
-          </div>
-        </div> 
+        </div>
 
         <div class="column humidity">
-          <div class="sensor-card">
-            <div class="current-container">
-              <span id="humidity" class="current-value">0</span>
-              <span class="unit">%</span>
+            <div class="sensor-card">
+                <div class="current-container">
+                    <span id="humidity" class="current-value">0</span>
+                    <span class="unit">%</span>
+                </div>
+                <div class="icon">
+                    <span class="i">&#xf07a;</span>
+                    <span class="type">HUMIDITY</span>
+                </div>
             </div>
-            <div class="icon">
-              <span class="i">&#xf07a;</span>
-              <span class="type">HUMIDITY</span>
-            </div>
-          </div>
-        </div> 
+        </div>
 
         <div class="column pressure">
-          <div class="sensor-card">
-            <div class="current-container">
-              <span id="pressure" class="current-value">0</span>
-              <span class="unit">hPa</span>
+            <div class="sensor-card">
+                <div class="current-container">
+                    <span id="pressure" class="current-value">0</span>
+                    <span class="unit">hPa</span>
+                </div>
+                <div class="icon">
+                    <span class="i">&#xf079;</span>
+                    <span class="type">PRESSURE</span>
+                </div>
             </div>
-            <div class="icon">
-              <span class="i">&#xf079;</span>
-              <span class="type">PRESSURE</span>
-            </div>
-          </div>
-        </div> 
+        </div>
 
-      </div>
-      <span class="updated">Last update: <span id="last-update"></span></span>
     </div>
-  </body>
+    <span class="updated">Last update: <span id="last-update"></span></span>
+</div>
+</body>
 </html>
