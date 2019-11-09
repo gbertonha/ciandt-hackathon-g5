@@ -1,6 +1,8 @@
 """This is the main program"""
 import time
 
+import random
+
 import RPi.GPIO as GPIO
 
 import Adafruit_DHT
@@ -19,7 +21,7 @@ class Iot(object):
 
     # Be careful to change this value, because Firebase free acc has a limit.
     #This represents the read interval in seconds.
-    interval = 300
+    interval = 10
     database = None
     temperatureAndHumidityPin = 18
     bmp = BMP085(0x77)
@@ -43,6 +45,7 @@ class Iot(object):
         print(humidity)
         print(temperature)
         if temperature is not None:
+            # self.send_to_firestore('temperature', round.randint(24, 26))
             self.send_to_firestore('temperature', round(temperature, 2))
         if humidity is not None:
             self.send_to_firestore('humidity', round(humidity, 2))

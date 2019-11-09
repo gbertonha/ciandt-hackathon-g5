@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83ba099-d990-4868-84b9-4e76e6fd1fe5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web-ui/public/js/firebase-messaging-sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-ui/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-ui/public/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-ui/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+            <state relative-caret-position="346">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -39,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web-ui/public/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2480">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="1160">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#!!doc;n#readData#0" />
@@ -85,8 +83,8 @@
         <option value="$PROJECT_DIR$/web-ui/public/index.php" />
         <option value="$PROJECT_DIR$/web-ui/.gitignore" />
         <option value="$PROJECT_DIR$/web-ui/public/css/style.css" />
-        <option value="$PROJECT_DIR$/web-ui/public/index.html" />
         <option value="$PROJECT_DIR$/web-ui/public/js/firebase-messaging-sw.js" />
+        <option value="$PROJECT_DIR$/web-ui/public/index.html" />
         <option value="$PROJECT_DIR$/web-ui/public/js/script.js" />
       </list>
     </option>
@@ -178,11 +176,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13432000" />
+    <option name="totallyTimeSpent" value="13931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.25299507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -196,7 +193,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="9" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" auto_hide="true" id="Terminal" order="9" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Migrations" order="12" />
@@ -257,20 +254,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-ui/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/public/js/firebase-messaging-sw.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-ui/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-ui/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2480">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="1160">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#!!doc;n#readData#0" />
