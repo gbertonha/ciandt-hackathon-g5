@@ -84,7 +84,7 @@ piglow==1.2.4
 pigpio==1.44
 Pillow==5.4.1
 prompt-toolkit==1.0.15
-protobuf==3.10.0
+protobuf==3.18.3
 psutil==5.5.1
 pyasn1==0.4.7
 pyasn1-modules==0.2.7
